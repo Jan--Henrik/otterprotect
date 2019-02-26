@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/janhenrik/kiCAD/antispark/antispark.sch</source>
+    <date>Di 05 Sep 2017 15:56:00 CEST</date>
+    <tool>Eeschema (2017-08-30 revision 50164e996)-master</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>antispark.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LM5060</value>
+      <footprint>Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm5060.pdf</datasheet>
+      <libsource lib="Power_Management" part="LM5060"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AE632B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>IPB160N08S4-03</value>
+      <footprint>crf1:D2PAK-7-GDS</footprint>
+      <libsource lib="crf_1" part="IRFS7734TRL7PP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AE7A35</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>IPB160N08S4-03</value>
+      <footprint>crf1:D2PAK-7-GDS</footprint>
+      <libsource lib="crf_1" part="IRFS7734TRL7PP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AE7AB3</tstamp>
+    </comp>
+    <comp ref="Ro1">
+      <value>10kOhm</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AE7DD9</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10kOhm</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AE7F65</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>315kOhm</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AE7FFD</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>27kOhm</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AE807A</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>68nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AE8684</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>crf1:Carfuse</footprint>
+      <libsource lib="device" part="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AEA4D8</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SMBJ54CA 87.1V</value>
+      <footprint>Diodes_SMD:D_SMB_Standard</footprint>
+      <datasheet>http://docs-europe.electrocomponents.com/webdocs/12cf/0900766b812cffd0.pdf</datasheet>
+      <libsource lib="device" part="D_TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AEAE08</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>Varistor</value>
+      <footprint>Varistors:RV_Disc_D12_W5_P7.5</footprint>
+      <libsource lib="device" part="Varistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AEAF84</tstamp>
+    </comp>
+    <comp ref="P1VBAT1">
+      <value>VBAT</value>
+      <footprint>crf1:1PAD_4x5mm</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AED9E5</tstamp>
+    </comp>
+    <comp ref="P1GND1">
+      <value>GND</value>
+      <footprint>crf1:1PAD_4x5mm</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AEDB27</tstamp>
+    </comp>
+    <comp ref="P2VBAT1">
+      <value>VOUT</value>
+      <footprint>crf1:1PAD_4x5mm</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AE7743</tstamp>
+    </comp>
+    <comp ref="P2GND1">
+      <value>GND</value>
+      <footprint>crf1:1PAD_4x5mm</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AE774A</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AE9B35</tstamp>
+    </comp>
+    <comp ref="Rsns1">
+      <value>10kOhm</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AEA487</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1MOhm</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AEB5EB</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>144kOhm</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AEB6A1</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>330kOhm</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AEB764</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>68kOhm</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AEB7F8</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1Mohm</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AEB87D</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>DIPS-04</value>
+      <footprint>crf1:DipSwitch</footprint>
+      <libsource lib="misc_devices" part="DIPS-04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AEBC60</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_01X03</value>
+      <footprint>crf1:smdJumper</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AED855</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10kOhm</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AEDA7F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="misc_devices" part="DIPS-04">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">DIPS-04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression (TVS) diode</description>
+      <docs>https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Fuse">
+      <description>Fuse, generic</description>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="crf_1" part="IRFS7734TRL7PP">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IRFS7734TRL7PP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="BiDi"/>
+        <pin num="3" name="S" type="BiDi"/>
+        <pin num="4" name="D" type="BiDi"/>
+        <pin num="5" name="S" type="BiDi"/>
+        <pin num="6" name="S" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Management" part="LM5060">
+      <description>High side protection controller, +5.5V to +65V operation, VSSOP-10 package</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm5060.pdf</docs>
+      <footprints>
+        <fp>*SOP*3x3mm*Pitch0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM5060</field>
+        <field name="Footprint">Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SENSE" type="input"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="OVP" type="input"/>
+        <pin num="4" name="UVLO" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="TIMER" type="input"/>
+        <pin num="8" name="~PGD" type="openCol"/>
+        <pin num="9" name="OUT" type="input"/>
+        <pin num="10" name="GATE" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="TEST_1P">
+      <description>point</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Varistor">
+      <description>Voltage dependent resistor</description>
+      <footprints>
+        <fp>RV_*</fp>
+        <fp>Varistor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">Varistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="misc_devices">
+      <uri>/usr/share/kicad/library/misc_devices.lib</uri>
+    </library>
+    <library logical="Power_Management">
+      <uri>/usr/share/kicad/library/Power_Management.lib</uri>
+    </library>
+    <library logical="crf_1">
+      <uri>/home/janhenrik/programme/bldc-hardware/design/Libraries/crf_1.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(F1-Pad2)">
+      <node ref="P1VBAT1" pin="1"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(Ro1-Pad2)">
+      <node ref="Ro1" pin="2"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="3" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="4" name="Net-(R7-Pad2)">
+      <node ref="SW1" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="6" name="VIN">
+      <node ref="U3" pin="4"/>
+      <node ref="R8" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="Rsns1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="F1" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="7" name="G">
+      <node ref="U3" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="8" name="Net-(C1-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="9" name="Net-(Rsns1-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="Rsns1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad3)">
+      <node ref="R8" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="D1" pin="2"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="P1GND1" pin="1"/>
+      <node ref="P2GND1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="SW1" pin="8"/>
+      <node ref="SW1" pin="7"/>
+      <node ref="SW1" pin="6"/>
+      <node ref="SW1" pin="5"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="13" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="14" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="15" name="Net-(R4-Pad2)">
+      <node ref="SW1" pin="4"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="16" name="UVLO">
+      <node ref="R3" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="17" name="VOUT">
+      <node ref="P2VBAT1" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="6"/>
+      <node ref="Ro1" pin="1"/>
+    </net>
+  </nets>
+</export>
